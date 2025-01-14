@@ -26,5 +26,6 @@
 import HelloWorld from './components/FrontPage.vue'
 import PWABadge from './components/PWABadge.vue'
 import { ref } from 'vue'
-const apps = ref([{ name: 'The Wide Mouthed Frog', url: '', icon: '/public/frog.png' }])
+const apps = ref([{ name: 'The Wide Mouthed Frog', url: '', icon: '/frog.png' }])
+// Changed small thing
 </script>
