@@ -4,6 +4,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/short-distance/",
   plugins: [vue(), VitePWA({
     registerType: 'autoUpdate',
     injectRegister: false,
