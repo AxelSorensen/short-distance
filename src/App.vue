@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen grid grid-rows-[auto,1fr,auto] h-screen justify-center items-center">
+  <div class="w-screen grid grid-rows-[auto,1fr,auto] h-dvh justify-center items-center">
     <div class="p-4 bg-green-200 text-green-900 w-screen text-center">Short Distance</div>
     <div class="p-4  h-full">
       <h2 class="text-xl mb-4">Apps</h2>
