@@ -1,5 +1,6 @@
 {
   "name": "valentina-app",
+  "homepage": "https://axelsorensen.github.io/short-distance/",
   "private": false,
   "version": "0.0.0",
   "type": "module",
