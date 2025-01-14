@@ -19,13 +19,15 @@
     <div class="bg-gray-100 p-8">Test</div>
 
   </div>
-  <PWABadge />
+  <!-- <PWABadge /> -->
 </template>
 
 <script setup>
-import HelloWorld from './components/FrontPage.vue'
+import imageUrl from '/frog.png'
+
+
 import PWABadge from './components/PWABadge.vue'
 import { ref } from 'vue'
-const apps = ref([{ name: 'The Wide Mouthed Frog', url: '', icon: '/frog.png' }])
+const apps = ref([{ name: 'The Wide Mouthed Frog', url: '', icon: imageUrl }])
 // Changed small thing
 </script>
