@@ -2,6 +2,8 @@
 
 A small installable PWA meant to host little apps and games for staying connected over a long-distance relationship.
 
+![Short Distance screenshot](docs/screenshot.png)
+
 ## Features
 
 - 📱 **Installable PWA** — configured with `vite-plugin-pwa` and a service worker for offline/home-screen use
