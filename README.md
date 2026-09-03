@@ -33,3 +33,5 @@ Then open the printed local URL. `npm run build` produces a production build (al
 ## Status
 
 🚧 Very early/inactive — the app grid shows one placeholder entry and a "More to come..." tile; `FrontPage.vue` is still empty. Last touched January 2025.
+
+✅ Runs cleanly — `npm install && npm run build` verified working as of 2026-09-03. No credentials required.
