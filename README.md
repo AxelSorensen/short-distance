@@ -1,5 +1,35 @@
-# Vue 3 + Vite
+# 💌 Short Distance
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A small installable PWA meant to host little apps and games for staying connected over a long-distance relationship.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Features
+
+- 📱 **Installable PWA** — configured with `vite-plugin-pwa` and a service worker for offline/home-screen use
+- 🐸 **App launcher grid** — a home screen listing mini-apps (currently "The Wide Mouthed Frog") with room for more
+- 🎨 **Tailwind styling** — simple utility-first layout
+
+## Installation
+
+```bash
+git clone <this repo>
+cd short-distance
+npm install
+```
+
+## Usage
+
+```bash
+npm run dev
+```
+
+Then open the printed local URL. `npm run build` produces a production build (also deployed to GitHub Pages at the `homepage` URL in `package.json`).
+
+## Built with
+
+- [Vue 3](https://vuejs.org/) + [Vite](https://vitejs.dev/)
+- [vite-plugin-pwa](https://vite-pwa-org.netlify.app/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## Status
+
+🚧 Very early/inactive — the app grid shows one placeholder entry and a "More to come..." tile; `FrontPage.vue` is still empty. Last touched January 2025.
