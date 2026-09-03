@@ -3,6 +3,7 @@
 A small installable PWA meant to host little apps and games for staying connected over a long-distance relationship.
 
 ![Short Distance screenshot](docs/screenshot.png)
+*The screenshot is blank because `FrontPage.vue` is still an empty component (see Status below) — no environment variables are involved, this app doesn't read any.*
 
 ## Features
 
